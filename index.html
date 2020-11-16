@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>HTML Backgorund Color</title>
-   </head>
-   <body style="background-color:black;">
-      <h1>Products</h1>
-   </body>
-</html>
+<body style="background-color:black">
+
+<h3 style="color:white">Enter the code</h3>
+
+<input id="age"/>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo" style="color:white"></p>
+
+<script>
+function myFunction() {
+  var age, voteable;
+  age = Number(document.getElementById("age").value);
+  if (isNaN(age)) {
+    voteable = "Invalid input";
+  } else {
+    voteable = (age == 251125) ? "Correct!" : "Wrong input";
+  }
+document.getElementById("demo").innerHTML=voteable;}
+</script>
+</body>

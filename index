@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HTML Backgorund Color</title>
+   </head>
+   <body style="background-color:black;">
+      <h1>Products</h1>
+   </body>
+</html>
